@@ -15,10 +15,10 @@ import su.plo.voice.api.server.PlasmoVoiceServer
 )
 class TestAddon : AddonInitializer {
 
-    private val voiceServer: PlasmoVoiceServer by injectPlasmoVoice()
-    // or
-    // @InjectPlasmoVoice
-    // private lateinit var voiceServer: PlasmoVoiceServer
+    @InjectPlasmoVoice
+    private lateinit var voiceServer: PlasmoVoiceServer
+    // or (only if you're using kotlin bundled with PV with relocation)
+    // private val voiceServer: PlasmoVoiceServer by injectPlasmoVoice()
 
     override fun onAddonInitialize() {
         // voiceServer is initialized now

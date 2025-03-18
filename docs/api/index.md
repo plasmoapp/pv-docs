@@ -84,7 +84,6 @@ It should be between 4 and 32 characters long.
 It's also preferred to the add prefix `pv-addon-` to your addon, but it is not mandatory.
 
 To access the API, you need to inject `PlasmoVoiceServer` using `@InjectPlasmoVoice`.
-Alternatively, if you're using kotlin, you can use `injectPlasmoVoice` delegate.
 
 The `PlasmoVoiceServer` will be injected right before invoking `onAddonInitialize`.
 
