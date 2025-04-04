@@ -30,7 +30,7 @@ A fork of Replay Voice Chat that works with Plasmo Voice allowing you to record 
 
 ---
 
-[![Talking Heads](/addon_logo/talking_heads.png)](https://modrinth.com/mod/talkingheads/)
+[![Talking Heads](https://i.imgur.com/3Q45TKO.png)](https://modrinth.com/mod/talkingheads/)
 
 ### Talking Heads
 
