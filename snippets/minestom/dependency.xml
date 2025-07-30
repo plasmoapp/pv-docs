@@ -1,0 +1,17 @@
+<project>
+    <repositories>
+        <repository>
+            <id>plasmoverse-releases</id>
+            <url>https://repo.plasmoverse.com/releases</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>su.plo.voice.server</groupId>
+            <artifactId>minestom</artifactId>
+            <version>${version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>

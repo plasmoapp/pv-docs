@@ -39,6 +39,7 @@ export default defineConfig({
           { text: 'DDoS Protection Setup', link: '/docs/server/udp-proxy/' },
           { text: 'Commands and Permissions', link: '/docs/server/commands/' },
           { text: 'Placeholder API', link: '/docs/server/papi/' },
+          { text: 'Minestom', link: '/docs/server/minestom/' },
         ]
       },
       // {
