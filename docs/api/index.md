@@ -2,10 +2,7 @@
 outline: deep
 ---
 
-[//]: # (# Getting Started)
-::: warning
-The API documentation is WIP and requires [2.1.x Alpha](https://modrinth.com/plugin/plasmo-voice/versions?c=alpha).
-:::
+# Getting Started
 
 ## Setting up dependency
 
@@ -19,7 +16,7 @@ Most of the examples below use the server module.
 
 ### Build system
 
-![Version](https://img.shields.io/badge/dynamic/xml?color=186EF0&label=version&query=/metadata/versioning/versions/version[not(contains(text(),'%2B'))][last()]&url=https://repo.plasmoverse.com/snapshots/su/plo/voice/api/server/maven-metadata.xml)
+![Version](https://img.shields.io/badge/dynamic/xml?color=186EF0&label=version&query=/metadata/versioning/versions/version[not(contains(text(),'%2B'))][last()]&url=https://repo.plasmoverse.com/releases/su/plo/voice/api/server/maven-metadata.xml)
 
 ::: code-group
 <<< @/snippets/api/getting-started/dependency.kts{kotlin} [Gradle Kotlin DSL]

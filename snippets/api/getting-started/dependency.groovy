@@ -3,10 +3,6 @@ repositories {
         name = 'plasmoverse-releases'
         url = 'https://repo.plasmoverse.com/releases'
     }
-    maven {
-        name = 'plasmoverse-snapshots'
-        url = 'https://repo.plasmoverse.com/snapshots'
-    }
 }
 
 dependencies {
