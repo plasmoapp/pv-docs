@@ -8,7 +8,8 @@ Or *at least* the [Terminology](/docs/server/advanced/#advanced-theory) part of 
 
 :::
 
-TCP Shield, Ngrok, or NeoProtect — is the **TCP Proxy** you use to protect your main server. It only supports the **TCP** protocol. 
+Ngrok, or NeoProtect — is the **TCP Proxy** you use to protect your main server. It only supports the **TCP** protocol. 
+TCPshield support Plasmo Voice.
 
 Plasmo Voice can't work on the TCP protocol.
 
