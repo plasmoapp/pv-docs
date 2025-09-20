@@ -8,11 +8,12 @@ Or *at least* the [Terminology](/docs/server/advanced/#advanced-theory) part of 
 
 :::
 
-TCP Shield, Ngrok, or NeoProtect — is the **TCP Proxy** you use to protect your main server. It only supports the **TCP** protocol. 
+Some services (like [TCPShield](https://tcpshield.com/) or [playit.gg](https://playit.gg/)) offer plans that support Plasmo Voice or other UDP applications.\
+If that’s the case, skip ahead to the [edit config section](#edit-plasmo-voice-config) and use provided IP/port in `[host.public]`.
+
+Proxies like ngrok — is the **TCP Proxy** you use to protect your main server.
 
 Plasmo Voice can't work on the TCP protocol.
-
-And there is no properer *"DDoS protection proxy as a service"* for the UDP protocol used by Plasmo Voice.
 
 That's why you need to make your own **UDP Proxy**.
 

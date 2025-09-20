@@ -8,9 +8,9 @@ If it doesn't, then read this guide to figure out why.
 
 ### DDoS Protection
 
-By default, Plasmo Voice won't work with TCP Shield, NeoProtect, or a similar proxy service.
+By default, Plasmo Voice won't work with TCPShield, NeoProtect, or a similar proxy service.
 
-It's still possible to make it work, but you need to set up a separate UDP Proxy.
+It's still possible to make it work, but you need to use appropriate plan or set up a separate UDP Proxy.
 
 Read: [DDoS Protection Setup](/docs/server/udp-proxy/)
 
