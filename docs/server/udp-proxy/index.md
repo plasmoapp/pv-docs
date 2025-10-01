@@ -56,6 +56,9 @@ stream {
   server {
     listen 2000 udp; # You can use any port. You will need this later. 
     proxy_pass 111.1.111.111:1000; # IP of the Voice Chat server on the Main Node
+
+    # Default proxy_timeout is too big (10 minutes), so it highly recommended to set it to 15s.
+    proxy_timeout 15s; 
   }
   server {
     # If you need to add more servers
@@ -91,17 +94,3 @@ If you only open the port you've used for `listen` this will cause problems.
 Make sure not to block all ports in the firewall.
 :::
 
-### Troubleshooting
-
-There is a rare problem when the proxy only works periodically.
-
-Adding this to a server block may help. 
-
-```nginx
-stream {
-  server {
-    # ...
-    proxy_timeout 15s;
-  }
-}
-```
