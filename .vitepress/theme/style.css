@@ -8,13 +8,11 @@
  * -------------------------------------------------------------------------- */
 
  :root {
-  --vp-c-brand: #186EF0;
-  --vp-c-brand-light: #498df3;
-  --vp-c-brand-lighter: #79abf6;
-  --vp-c-brand-lightest: #a9c9f9;
-  --vp-c-brand-dark: #0d58c9;
-  --vp-c-brand-darker: #0a4399;
-  --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
+  --vp-c-brand-1: #186EF0;
+  --vp-c-brand-2: #498df3;
+  --vp-c-brand-3: #a9c9f9;
+  --vp-code-color: var(--vp-c-brand-2);
+  --vp-c-brand-soft: rgba(24, 110, 240, 0.14);
 }
 
 /**
@@ -54,15 +52,15 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-button-brand-border: var(--vp-c-brand-light);
+  --vp-button-brand-border: transparent;
   --vp-button-brand-text: var(--vp-c-white);
-  --vp-button-brand-bg: var(--vp-c-brand);
-  --vp-button-brand-hover-border: var(--vp-c-brand-light);
+  --vp-button-brand-bg: var(--vp-c-brand-1);
+  --vp-button-brand-hover-border: transparent;
   --vp-button-brand-hover-text: var(--vp-c-white);
-  --vp-button-brand-hover-bg: var(--vp-c-brand-light);
-  --vp-button-brand-active-border: var(--vp-c-brand-light);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-active-border: transparent;
   --vp-button-brand-active-text: var(--vp-c-white);
-  --vp-button-brand-active-bg: var(--vp-button-brand-bg);
+  --vp-button-brand-active-bg: var(--vp-c-brand-1);
 }
 
 /**
@@ -102,15 +100,15 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-custom-block-tip-border: var(--vp-c-brand);
-  --vp-custom-block-tip-text: var(--vp-c-brand-darker);
-  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+  --vp-custom-block-tip-border: var(--vp-c-brand-1);
+  --vp-custom-block-tip-text: var(--vp-c-brand-3);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
 }
 
 .dark {
-  --vp-custom-block-tip-border: var(--vp-c-brand);
-  --vp-custom-block-tip-text: var(--vp-c-brand-lightest);
-  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+  --vp-custom-block-tip-border: var(--vp-c-brand-1);
+  --vp-custom-block-tip-text: var(--vp-c-brand-2);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
 }
 
 /**
@@ -118,7 +116,7 @@
  * -------------------------------------------------------------------------- */
 
 .DocSearch {
-  --docsearch-primary-color: var(--vp-c-brand) !important;
+  --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
 /**
@@ -138,12 +136,12 @@
 .dark .link.link.active,
 .dark .edit-link-button.edit-link-button,
 .dark .pager-link .title {
-  color: var(--vp-c-brand-lighter);
+  color: var(--vp-c-brand-2);
 }
 
 .dark .vp-doc a:hover,
 .dark .vp-doc a > code:hover {
-  color: var(--vp-c-brand-lightest);
+  color: var(--vp-c-brand-3);
   opacity: 1;
 }
 
