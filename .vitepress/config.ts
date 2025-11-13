@@ -46,13 +46,12 @@ export default defineConfig({
           { text: 'Minestom', link: '/docs/server/minestom/' },
         ]
       },
-      // {
-      //   text: 'Client',
-      //   items: [
-      //     { text: 'Inherit Activation Type', link: '/addons.html' },
-      //     { text: 'MacOS Microphone Issue', link: '/addon-types.html' },
-      //   ]
-      // },
+      {
+        text: 'Client',
+        items: [
+          { text: 'Microphone Not Available', link: '/docs/client/microphone-not-available/' },
+        ]
+      },
       {
         text: 'Add-ons',
         items: [
