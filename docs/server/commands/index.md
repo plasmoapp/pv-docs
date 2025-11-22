@@ -9,7 +9,8 @@ Command and aliases | Description                                         | Perm
 `/vreload` | Reload the plugin                                   | `pv.reload`               | op
 `/vreconnect` | Reconnect the client                                | `pv.reconnect`            | true
 `/vlist` | Show the list of players with the mod installed     | `pv.list`                 | true
-`none` | Allows user to use the default proximity voice chat | `pv.activation.proximity` | true
+`none` | Allows player to use the default proximity voice chat | `pv.activation.proximity` | true
+`none` | Allows player to hear from the camera position. With `false` player will hear audio from the player position. | `pv.allow_freecam` | true
 
 ::: tip
 
