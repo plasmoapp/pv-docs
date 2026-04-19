@@ -38,6 +38,7 @@ export default defineConfig({
         text: 'Server',
         items: [
           { text: 'Installing on a Server', link: '/docs/server/installing/' },
+          { text: 'Not Installed on Server', link: '/docs/server/not-installed/' },
           { text: 'Advanced Theory', link: '/docs/server/advanced/' },
           { text: 'Installing on a Proxy', link: '/docs/server/proxy/' },
           { text: 'DDoS Protection Setup', link: '/docs/server/udp-proxy/' },
