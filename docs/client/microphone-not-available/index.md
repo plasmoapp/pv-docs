@@ -20,6 +20,12 @@ Open System Settings -> Privacy & Security -> Microphone. Enable microphone acce
 
 Open Settings -> Privacy & Security -> Microphone. Make sure "Microphone access" is enabled and desktop apps can use the microphone.
 
+## Disable exclusive mode (Windows)
+
+If an app is allowed to take exclusive control of your microphone, Plasmo Voice may fail to open it.
+
+Open Sound Control Panel -> Recording, select your microphone -> Properties -> Advanced, and uncheck "Allow applications to take exclusive control of this device".
+
 ## Check microphone sample rate and bit depth
 
 Some microphones may not work if they are configured to use 24-bit depth.
