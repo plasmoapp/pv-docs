@@ -72,6 +72,17 @@ export const addons: Addon[] = [
     ],
   },
   {
+    id: 'pv-addon-flashback',
+    name: 'pv-addon-flashback',
+    type: 'client',
+    icon: 'https://raw.githubusercontent.com/apehum/pv-addon-flashback/refs/heads/main/src/main/resources/assets/pvaddonflashback/icon.png?raw=true',
+    summary: 'With this add-on Plasmo Voice will be recorded in Flashback replays',
+    links: [
+      { type: 'modrinth', url: 'https://modrinth.com/mod/pv-addon-flashback' },
+      { type: 'github', url: 'https://github.com/apehum/pv-addon-flashback' },
+    ],
+  },
+  {
     id: 'talking-heads',
     name: 'Talking Heads',
     type: 'client',
