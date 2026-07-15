@@ -2,6 +2,8 @@
 import { h } from 'vue'
 import Theme from 'vitepress/theme'
 import './style.css'
+import AddonList from './components/AddonList.vue'
+import AddonTable from './components/AddonTable.vue'
 
 export default {
   ...Theme,
@@ -11,6 +13,7 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component('AddonList', AddonList)
+    app.component('AddonTable', AddonTable)
   }
 }

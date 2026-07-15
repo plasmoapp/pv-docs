@@ -4,7 +4,7 @@
 
 Complete rewrite with LGPL License, advanced API, ten official add-ons, groups, replay mod support, Bungee/Velocity plugins, stereo, new icons, new menu, better sound quality, and encryption.
 
-Go get it. It's good. Trust me, bro. You can find it on Modrinth: https://modrinth.com/mod/plasmo-voice
+Go get it. It's good. Trust me, bro. You can find it on [Modrinth](https://modrinth.com/mod/plasmo-voice) and [CurseForge](https://www.curseforge.com/minecraft/mc-mods/plasmo-voice).
 
 ## Bungee And Velocity Plugins
 

@@ -50,7 +50,7 @@ Read: [Installing on a Proxy](/docs/server/proxy/)
 
 ## Install the Client mod
 
-You need to install a [Forge or a Fabric mod](https://modrinth.com/mod/plasmo-voice) on your client for the voice chat to work. Players without the mod are still able to join and play as usual.
+You need to install a Forge or a Fabric mod from [Modrinth](https://modrinth.com/mod/plasmo-voice) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/plasmo-voice) on your client for the voice chat to work. Players without the mod are still able to join and play as usual.
 
 Paper, Fabric, and Forge servers are all compatible with both Fabric and Forge clients.
 

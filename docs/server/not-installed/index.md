@@ -8,7 +8,7 @@ There are a few known reasons this happens.
 
 The server runs Plasmo Voice 1.x.x while the client is on 2.x.x (or vice versa). The protocols are not compatible.
 
-Make sure both the server and the client use the same major version. The latest version is available on [Modrinth](https://modrinth.com/mod/plasmo-voice).
+Make sure both the server and the client use the same major version. The latest version is available on [Modrinth](https://modrinth.com/mod/plasmo-voice) and [CurseForge](https://www.curseforge.com/minecraft/mc-mods/plasmo-voice).
 
 ## A mod is hiding the client's mod list
 
