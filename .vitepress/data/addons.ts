@@ -241,3 +241,12 @@ export function githubLink(addon: Addon): AddonLink | undefined {
 export function linkLabel(link: AddonLink): string {
   return link.label ?? linkLabels[link.type]
 }
+
+// summaries are written without a trailing dot for the landing page table
+export function addonDescription(addon: Addon): string[] {
+  if (addon.description) {
+    return addon.description
+  }
+
+  return [/[.!?]$/.test(addon.summary) ? addon.summary : `${addon.summary}.`]
+}

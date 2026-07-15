@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { AddonType } from '../../data/addons'
-import { addonsByType, githubLink, primaryLink } from '../../data/addons'
+import { addonDescription, addonsByType, githubLink, primaryLink } from '../../data/addons'
 import AddonLinks from './AddonLinks.vue'
 
 const props = defineProps<{
@@ -23,10 +23,10 @@ const list = addonsByType(props.type)
           <a class="header-anchor" :href="`#${addon.id}`" :aria-label="`Permalink to &quot;${addon.name}&quot;`" />
         </h3>
 
-        <p v-for="(paragraph, index) in addon.description ?? [addon.summary]" :key="index" v-html="paragraph" />
+        <p v-for="(paragraph, index) in addonDescription(addon)" :key="index" v-html="paragraph" />
 
         <div v-if="addon.thirdParty && githubLink(addon)" class="warning custom-block">
-          <p class="custom-block-title">Third party add-on.</p>
+          <p class="custom-block-title">Third party add-on</p>
           <p>
             This add-on is maintained by a third party, so if you encounter any issues, please report them on the
             <a :href="githubLink(addon)!.url" target="_blank" rel="noreferrer">{{ addon.name }} GitHub</a>.
