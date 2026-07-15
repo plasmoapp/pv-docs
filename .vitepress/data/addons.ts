@@ -85,6 +85,19 @@ export const addons: Addon[] = [
     ],
   },
   {
+    id: 'let-them-talk',
+    name: 'Let Them Talk (LTT)',
+    type: 'client',
+    icon: 'https://raw.githubusercontent.com/ZipeStudio/Let-Them-Talk/refs/heads/master/src/main/resources/icon/icon.png',
+    summary: 'Lowers your music and other apps while someone is talking',
+    thirdParty: true,
+    links: [
+        { type: 'modrinth', url: 'https://modrinth.com/mod/let-them-talk' },
+        { type: 'curseforge', url: 'https://www.curseforge.com/minecraft/mc-mods/let-them-talk' },
+        { type: 'github', url: 'https://github.com/ZipeStudio/Let-Them-Talk' },
+    ],
+  },
+  {
     id: 'pv-addon-groups',
     name: 'pv-addon-groups',
     type: 'universal',
