@@ -30,7 +30,7 @@ function platformLink(addon: Addon, platform: Platform): string {
 function addonIcon(addon: Addon): string {
   const src = addon.icon.startsWith('/') ? `${SITE}${addon.icon}` : addon.icon
 
-  return `<img src="${src}" width="96" height="96" alt="${addon.name}">`
+  return `<img src="${src}" width="96" alt="${addon.name}">`
 }
 
 // platforms can't render the badge or the warning block, so it goes inline
