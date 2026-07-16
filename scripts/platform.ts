@@ -33,7 +33,7 @@ function addonIcon(addon: Addon): string {
   return `<img src="${src}" width="96" alt="${addon.name}">`
 }
 
-// platforms can't render the badge or the warning block, so it goes inline
+// platforms can't render the badge or the warning block, so it goes inline on its own line
 function addonSummary(addon: Addon): string {
   const summary = addon.summary.replace(/\.$/, '')
 
@@ -44,7 +44,7 @@ function addonSummary(addon: Addon): string {
   const github = githubLink(addon)
   const report = github ? `[${addon.name} GitHub](${github.url})` : `${addon.name} GitHub`
 
-  return `${summary}. Third-party add-on. Issues should be reported on the ${report}`
+  return `${summary}<br>*Third-party add-on. Issues should be reported on the ${report}.*`
 }
 
 export function renderAddons(platform: Platform, ...types: AddonType[]): string {
