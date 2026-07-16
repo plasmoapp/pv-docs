@@ -6,6 +6,9 @@ export default defineConfig({
   title: "Plasmo Voice",
   description: "Proximity Voice Chat Mod for Minecraft",
 
+  // included by index.md and rendered into the platform descriptions, not a page of its own
+  srcExclude: ['parts/**'],
+
   head: [
     ['link', { rel: "icon", href: "/favicon.svg"}],
   ],
