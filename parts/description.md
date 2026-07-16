@@ -20,7 +20,7 @@ features.
 
 <img src="/landing/visualise-distance.gif" width="1280px" alt="Voice chat proximity and settings demonstration" />
 
-<img src="/landing/rbm-scroll.gif" width="1280px" alt="Voice chat interface and controls demonstration" />
+<img src="/landing/rmb-scroll.gif" width="1280px" alt="Voice chat interface and controls demonstration" />
 
 ## Client features
 
