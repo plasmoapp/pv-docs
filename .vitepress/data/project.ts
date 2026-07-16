@@ -3,6 +3,9 @@ export interface NavLink {
   url: string
 }
 
+// modrinth project slug, used to sync the description over the API
+export const modrinthProject = 'plasmo-voice'
+
 // wide banner for platform descriptions; the docs site uses /logo512.png instead
 export const logo = 'https://imgur.com/3ccgCRz.png'
 

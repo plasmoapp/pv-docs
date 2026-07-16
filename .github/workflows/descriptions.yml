@@ -1,0 +1,50 @@
+name: Platform descriptions
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .vitepress/data/addons.ts
+      - .vitepress/data/project.ts
+      - parts/description.md
+      - scripts/platform.ts
+      - scripts/publish-modrinth.ts
+      - .github/workflows/descriptions.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  descriptions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate descriptions
+        run: |
+          npm run -s platform modrinth > modrinth.md
+          npm run -s platform curseforge > curseforge.md
+
+      # curseforge has no write API, so its description is uploaded for manual pasting
+      - name: Upload descriptions
+        uses: actions/upload-artifact@v4
+        with:
+          name: descriptions
+          path: |
+            modrinth.md
+            curseforge.md
+
+      - name: Update Modrinth
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        run: npm run -s publish:modrinth
