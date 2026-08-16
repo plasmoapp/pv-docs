@@ -1,4 +1,4 @@
-export type AddonType = 'client' | 'universal' | 'paper'
+export type AddonType = 'client' | 'universal' | 'paper' | 'mod'
 
 export type LinkType = 'modrinth' | 'github' | 'curseforge'
 

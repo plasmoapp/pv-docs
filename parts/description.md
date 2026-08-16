@@ -89,7 +89,7 @@ Universal add-ons work on Fabric, Forge, NeoForge and Paper.
 
 *Also read: [Types of Add-ons](https://plasmovoice.com/docs/addons/types).*
 
-<AddonTable types="universal,paper" />
+<AddonTable types="universal,paper,mod" />
 
 ## Client add-ons
 
