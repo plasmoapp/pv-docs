@@ -87,7 +87,7 @@ export const addons: Addon[] = [
     name: 'Talking Heads',
     type: 'client',
     icon: 'https://raw.githubusercontent.com/ZipeStudio/TalkingHeads/refs/heads/master/src/main/resources/icon/icon.png',
-    summary: 'Scales player heads when they\u2019re talking',
+    summary: 'Scales player heads when they’re talking',
     thirdParty: true,
     links: [
       { type: 'modrinth', url: 'https://modrinth.com/mod/talkingheads' },
@@ -149,7 +149,7 @@ export const addons: Addon[] = [
       {
         type: 'tip',
         title: 'Bungee and Velocity Support',
-        text: 'You\u2019ll be able to set the broadcast scope to all servers on the proxy if you install the add-on as a Bungee or Velocity plugin.',
+        text: 'You’ll be able to set the broadcast scope to all servers on the proxy if you install the add-on as a Bungee or Velocity plugin.',
       },
     ],
     links: [
