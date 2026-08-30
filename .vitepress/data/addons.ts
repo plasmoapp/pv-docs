@@ -224,6 +224,18 @@ export const addons: Addon[] = [
       { type: 'github', url: 'https://github.com/plasmoapp/pv-addon-discs' },
     ],
   },
+  {
+    id: 'pv-lazodiscs',
+    name: 'pv-LazoDiscs',
+    type: 'universal',
+    icon: 'https://cdn.modrinth.com/data/bgknC1pg/9d30ab3791e885e8515732165d09b9d03276f5de_96.webp',
+    summary: 'Custom music discs with Plasmo Voice positional audio',
+    links: [
+      { type: 'modrinth', url: 'https://modrinth.com/mod/lazodiscs' },
+      { type: 'curseforge', url: 'https://www.curseforge.com/minecraft/mc-mods/lazodiscs' },
+      { type: 'github', url: 'https://github.com/EyeCrasher07/LazoDiscs' },
+    ],
+  },
 ]
 
 export function addonsByType(...types: AddonType[]): Addon[] {
