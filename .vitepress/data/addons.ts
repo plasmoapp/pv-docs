@@ -224,6 +224,18 @@ export const addons: Addon[] = [
       { type: 'github', url: 'https://github.com/plasmoapp/pv-addon-discs' },
     ],
   },
+  {
+    id: 'simple-voice-radio',
+    name: 'Simple Voice Radio',
+    type: 'paper',
+    icon: 'https://raw.githubusercontent.com/nybikyt/SimpleVoiceRadio/main/logo.png',
+    summary: 'Adds a radio block that lets players communicate over distances',
+    thirdParty: true,
+    links: [
+      { type: 'modrinth', url: 'https://modrinth.com/plugin/simple-voice-radio' },
+      { type: 'github', url: 'https://github.com/nybikyt/SimpleVoiceRadio' },
+    ],
+  },
 ]
 
 export function addonsByType(...types: AddonType[]): Addon[] {
