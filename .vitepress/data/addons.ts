@@ -209,6 +209,30 @@ export const addons: Addon[] = [
     ],
   },
   {
+    id: 'voiceless-survival',
+    name: 'Voiceless Survival',
+    type: 'universal',
+    icon: 'https://raw.githubusercontent.com/armilp02/Voiceless-Survival/forge-all/logo.png',
+    summary: 'Mobs react to your voice. Hostile mobs follow the sound, animals run away',
+    description: [
+      'Mobs detect and react to proximity voice chat based on how loud you speak and how far you are.',
+      'Hostile mobs are drawn toward the sound of your voice, animals run away from it, and sculk sensors can pick it up.',
+    ],
+    thirdParty: true,
+    notes: [
+      {
+        type: 'info',
+        title: 'Requirements',
+        text: 'Forge 1.20.1. Requires Plasmo Voice.',
+      },
+    ],
+    links: [
+      { type: 'curseforge', url: 'https://www.curseforge.com/minecraft/mc-mods/voiceless-survival' },
+      { type: 'modrinth', url: 'https://modrinth.com/mod/voiceless-survival' },
+      { type: 'github', url: 'https://github.com/armilp02/Voiceless-Survival' },
+    ],
+  },
+  {
     id: 'pv-addon-discs',
     name: 'pv-addon-discs',
     type: 'paper',
