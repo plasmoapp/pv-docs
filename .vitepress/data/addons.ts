@@ -108,6 +108,19 @@ export const addons: Addon[] = [
         { type: 'github', url: 'https://github.com/ZipeStudio/Let-Them-Talk' },
     ],
   },
+    {
+    id: 'talking-huds',
+    name: 'Talking Huds',
+    type: 'client',
+    thirdParty: true,
+    icon: 'https://raw.githubusercontent.com/ZipeStudio/Talking-Huds/refs/heads/master/src/main/resources/icon/icon.png',
+    summary: 'Replaces voice overlay with a new one that has several styles.',
+    links: [
+        { type: 'modrinth', url: 'https://modrinth.com/mod/talking-huds' },
+        { type: 'curseforge', url: 'https://www.curseforge.com/minecraft/mc-mods/talking-huds' },
+        { type: 'github', url: 'https://github.com/ZipeStudio/Talking-Huds' },
+    ],
+  },
   {
     id: 'pv-addon-groups',
     name: 'pv-addon-groups',
